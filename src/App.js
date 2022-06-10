@@ -1,6 +1,6 @@
 import './App.css';
 
-import Navbar from './';
+import Navbar from './Navbar.js';
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 
@@ -13,10 +13,11 @@ import Prices from './pages/prices';
 function App() {
   return (
     <Router>
+    
+    <Navbar />
     <div className="App">
       <Header />
     </div>
-    <Navbar />
     <Routes>
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>} />
