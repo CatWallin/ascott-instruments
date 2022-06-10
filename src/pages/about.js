@@ -1,5 +1,5 @@
 import React from "react";
-import '.././index.css';
+import '.././App.css';
 import portrait from '../images/DSC_4861.jpg';
   
 const About = () => {
@@ -9,7 +9,7 @@ const About = () => {
       <h1>
         ABOUT ME
       </h1>
-      <img src={portrait} alt="Portrait" height={700} width={500}></img>
+      <img src={portrait} alt="aaron's portrait" height={700} width={500}></img>
     </div>
   );
 };
