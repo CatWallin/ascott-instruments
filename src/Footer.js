@@ -12,7 +12,7 @@ function Footer(){
                     </button>
                 </a>
             </div>
-            <p> &copy; 2021 ascottinstruments.com</p>
+            <p> &copy; 2022 ascottinstruments.com</p>
         </div>
     )
 }

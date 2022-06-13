@@ -19,3 +19,10 @@
   .footer p {
     color: #6b1c3b;
   }
+
+  .footer button {
+    background-color: transparent;
+    border: none;
+    color: #6b1c3b;
+    cursor: pointer;
+  }
