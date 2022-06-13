@@ -4,8 +4,8 @@ import "../styles/Home.css";
 
 const Home = () => {
     return (
-      <div className="home">
-        <div className="headerContainer" style={{ backgroundImage: `url(${BannerImage})` }}>
+      <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
+        <div className="headerContainer" >
           <h1> A. Scott </h1>
           <h1> Instruments </h1>
           <p> Quality Crafted </p>

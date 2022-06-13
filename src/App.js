@@ -1,6 +1,7 @@
 import './App.css';
 
 import Navbar from './Navbar.js';
+import Footer from "./Footer.js";
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 
@@ -13,14 +14,15 @@ import Prices from './pages/prices';
 function App() {
   return (
     <Router>
-    <Navbar />
-    <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/about' element={<About/>} />
-        <Route path='/contact' element={<Contact/>} />
-        <Route path='/gallery' element={<Gallery/>} />
-        <Route path='/prices' element={<Prices/>} />
-    </Routes>
+      <Navbar />
+        <Routes>
+          <Route path='/' element={<Home/>} />
+          <Route path='/about' element={<About/>} />
+          <Route path='/contact' element={<Contact/>} />
+          <Route path='/gallery' element={<Gallery/>} />
+          <Route path='/prices' element={<Prices/>} />
+      </Routes>
+      <Footer />
     </Router>
   );
 }
