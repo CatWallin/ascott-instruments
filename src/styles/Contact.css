@@ -1,0 +1,111 @@
+.contact {
+    width: 80%;
+    height: 90vh;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    background-color: #f6f6f6;
+    padding-bottom: 20px;
+  }
+  
+  .contact .contactLeft {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .contact .contactLeft img {
+    height: 85vh;
+    width: 60vh;
+    display: flex;
+  }
+  
+  .contact .contactRight {
+    height: 85vh;
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact .contactRight h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  .contact .contactRight text {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 6;
+    font-size: 14px;
+    margin-left: 10px;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    color: #6b1c3b;
+    cursor: pointer;
+    vertical-align: middle;
+}
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+  
+  form input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
+  
+  form textarea {
+    margin-top: 15px;
+    height: 70px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #121619;
+    color: black;
+  }
+  input::placeholder,
+  textarea::placeholder {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  
+  form label {
+    margin-top: 15px;
+    color: grey;
+  }
+  
+  form button {
+    margin-top: 40px;
+    width: 140px;
+    height: 40px;
+    border: none;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
