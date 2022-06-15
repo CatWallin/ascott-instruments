@@ -1,0 +1,38 @@
+
+
+.galleryPage {
+    width: 90vh;
+    margin: 5px;
+}
+  
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 8px;
+}
+
+.gallery img {
+    width: auto;
+    height: 40vh;
+    border-radius: 8px;
+    display: flex;
+    transition: all 1.5s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.025);
+
+}
+
+
+  @media only screen and (max-width: 1300px) {
+    .priceList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .priceList {
+      grid-template-columns: 1fr;
+    }
+  }

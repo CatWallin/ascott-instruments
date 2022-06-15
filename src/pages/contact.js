@@ -46,14 +46,14 @@ const Contact = () => {
             <title>Contact Me</title>
           </head>
           <body>
-            <form id="contactForm" className="form">
+            <form action="mailto:catherine.wallin@gmail.com" method="post" enctype="text/plain" id="contactForm" className="form">
               <label>Name</label>
               <input type ="text" name="name" placeholder="John Smith"></input>
               <label>Email</label>
               <input type ="email" name="email" placeholder="email@gmail.com"></input>
               <label>Message</label>
               <textarea type="message" placeholder="enter a message"></textarea>
-              <button type="submit" value="Send">Send</button>
+              <button type="submit" value="submit">Send</button>
             </form>
           </body>
         </html>
