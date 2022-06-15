@@ -48,12 +48,12 @@ const Contact = () => {
           <body>
             <form id="contactForm" className="form">
               <label>Name</label>
-              <input type ="text" name="name"></input>
+              <input type ="text" name="name" placeholder="John Smith"></input>
               <label>Email</label>
-              <input type ="email" name="email"></input>
+              <input type ="email" name="email" placeholder="email@gmail.com"></input>
               <label>Message</label>
-              <textarea type="message"></textarea>
-              <input type="submit" value="Send"></input>
+              <textarea type="message" placeholder="enter a message"></textarea>
+              <button type="submit" value="Send">Send</button>
             </form>
           </body>
         </html>
