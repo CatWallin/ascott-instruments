@@ -1,20 +1,15 @@
 
-
 .contact {
     margin: 50px;
-    border-radius: 15px;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     width: auto;
     max-width: 1000px;
     height: auto;
     justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     display: flex;
-    background-color: #f6f6f6;
-    padding-bottom: 20px;
   }
   
   .contact .contactLeft {
@@ -26,8 +21,8 @@
   }
 
   .contact .contactLeft img {
-    height: 85vh;
-    width: 60vh;
+    height: 83vh;
+    width: 58vh;
     display: flex;
   }
   
@@ -67,10 +62,11 @@
 
   button:hover {
     color: #594c46;
+    text-shadow: 0px 3px 15px #bba297
   }
   
   form {
-    margin-top: 20px;
+    margin-top: 40px;
     border-radius: 15px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -120,6 +116,12 @@
     background-color: #d4d4d4;
     color: #6b1c3b;
     font-size: 15px;
+    cursor: pointer;
+  }
+
+  form:hover {
+    box-shadow: 0px 3px 15px #321a24;
+    transition: 0.3s ease-in;
     cursor: pointer;
   }
 

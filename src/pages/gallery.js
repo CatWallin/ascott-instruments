@@ -17,7 +17,7 @@ const Gallery = () => {
               image={galleryItem.image}
             />
           )
-        })};
+        })}
       </div>
     </div>
   );

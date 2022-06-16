@@ -26,10 +26,10 @@ const Contact = () => {
                 </a>
               </div>
               <div>
-                <a href="giotariseal0812@gmail.com">
+                <a href="ascottinstruments@gmail.com">
                   <button>
                     <MdOutlineEmail />
-                    <text> giotariseal0812@gmail.com </text>
+                    <text> ascottinstruments@gmail.com </text>
                   </button>
                 </a>
               </div>
@@ -61,5 +61,5 @@ const Contact = () => {
     </div>
   );
 };
-  
+
 export default Contact;

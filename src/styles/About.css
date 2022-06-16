@@ -1,3 +1,54 @@
 .about {
-    background-color: #e5d9d1;
+    margin: 50px;
+    width: auto;
+    max-width: 1000px;
+    height: auto;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;
 }
+
+.about .aboutLeft {
+    height: 100%;
+    flex: 50%;
+    background-size: cover;
+}
+
+.about .aboutRight img {
+    height: 85vh;
+    width: 60vh;
+    display: flex;
+}
+  
+.about .aboutRight {
+    height: 100%vh;
+    flex: 50%;
+    display: flex;
+    padding-left: 20px;
+    justify-content: center;
+}
+  
+.about .aboutLeft h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    color: #6b1c3b;
+    font-weight: 10;
+    font-size: 30px;
+}
+
+.about .aboutLeft text {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 6;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .about .aboutRight {
+      display: none;
+    }
+  }
