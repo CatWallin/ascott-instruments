@@ -2,7 +2,7 @@ import React from "react";
 import Image from '../images/DSC_4840.jpg';
 import '.././App.css';
 import "../styles/Contact.css";
-import { BsInstagram } from "react-icons/bs";
+import { FaInstagram } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 import { CgWebsite } from "react-icons/cg";
   
@@ -20,7 +20,7 @@ const Contact = () => {
               <div>
                 <a href="http://www.instagram.com/ascottinstruments/">
                   <button>
-                    <BsInstagram />
+                    <FaInstagram />
                     <text> @ascottinstruments </text>
                   </button>
                 </a>

@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import {  Link } from "react-router-dom";
 import './styles/Navbar.css';
 import { IoMdReorder } from "react-icons/io";
-import Logo from "./images/DSC_4857.jpg";
+import LogoRed from "./images/LogoRed.webp";
+
 
 const Navbar= () =>{
 
@@ -15,7 +16,7 @@ const Navbar= () =>{
     return (
     <div className="Navbar">
         <div className='leftSide' id={openLinks ? "open" : "close"}>
-            <img src={Logo} />
+            <img alt="A. Scott Instruments" src={LogoRed} />
             <div className="hiddenLinks">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
