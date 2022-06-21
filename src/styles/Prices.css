@@ -14,6 +14,7 @@
   
   .priceList {
     width: 70vw;
+    padding-top: 16px;
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -44,11 +45,25 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
+
   .PriceItem h1,
+  .PriceItem h2 {
+    margin-left: 20px;
+    line-height: 16px;
+  }
+
+  .PriceItem h2 {
+    font-size: 20px;
+    font-weight: 6;
+  }
+
   .PriceItem p {
     margin-left: 20px;
+    font-size: 14px;
+    line-height: 8px;
   }
+  
+  
   
   @media only screen and (max-width: 1300px) {
     .priceList {
