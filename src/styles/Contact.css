@@ -1,8 +1,7 @@
 
 .contact {
     margin: 50px;
-    width: auto;
-    max-width: 1000px;
+    width: 90%;
     height: auto;
     justify-content: center;
     padding-left: 0px;
@@ -16,9 +15,8 @@
   .contact .contactLeft {
     height: 100%;
     flex: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    display: flex;
+    justify-content: center;
   }
 
   .contact .contactLeft img {
@@ -30,7 +28,6 @@
   .contact .contactRight {
     height: 100%vh;
     flex: 50%;
-    margin-left: 20px;
     display: flex;
     justify-content: center;
   }

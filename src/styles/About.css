@@ -1,13 +1,8 @@
 .about {
     margin: 50px;
-    width: auto;
-    max-width: 1000px;
-    height: auto;
     justify-content: center;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
+    width: 90%;
+    height: auto;
     display: flex;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -16,6 +11,8 @@
     height: 100%;
     flex: 50%;
     background-size: cover;
+    padding-left: 20px;
+    justify-content: center;
 }
 
 .about .aboutRight img {
@@ -28,7 +25,6 @@
     height: 100%vh;
     flex: 50%;
     display: flex;
-    padding-left: 20px;
     justify-content: center;
 }
   

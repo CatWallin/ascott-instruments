@@ -11,6 +11,10 @@
   .pricePage .priceTitle h1 {
     font-size: 60px;
   }
+
+  .priceInfo {
+    text-align: center;
+  }
   
   .priceList {
     width: 70vw;

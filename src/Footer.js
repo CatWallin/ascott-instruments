@@ -8,21 +8,21 @@ function Footer(){
     return (
         <div className="footer">
             <div className="socialMedia">
-                <instagram href="http://www.instagram.com/ascottinstruments/">
+                <a href="http://www.instagram.com/ascottinstruments/">
                     <button>
                         <FaInstagram />
                     </button>
-                </instagram>
-                <email href="ascottinstruments@gmail.com">
+                </a>
+                <a href="ascottinstruments@gmail.com">
                     <button>
                         <MdOutlineEmail />
                     </button>
-                </email>
-                <reverb href="https://reverb.com/shop/aarons-gear-garage-908#">
+                </a>
+                <a href="https://reverb.com/shop/aarons-gear-garage-908#">
                     <button>
                         <CgWebsite />
                     </button>
-                </reverb>
+                </a>
             </div>
             <p> &copy; 2022 ascottinstruments.com</p>
         </div>

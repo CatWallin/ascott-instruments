@@ -10,7 +10,7 @@ const About = () => {
         <div>
           <h1> About </h1>
           <text> 
-            Aaron Scott is a luthier and musician living in Southern California.
+            Aaron Scott is a luthier and musician living in Southern California. 
             Aaron plays mandolin, guitar, bass, bagpipes, Irish bouzouki, as well as drums.
             <br></br>
             <br></br>
