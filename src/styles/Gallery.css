@@ -1,39 +1,22 @@
 
 
 .galleryPage {
-    width: 90vh;
-    margin: 5px;
+    width: 100%;
+    margin-top: 5px;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;    
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-  
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 8px;
-}
-
-.gallery img {
-    width: auto;
-    height: 40vh;
-    border-radius: 8px;
-    display: flex;
-    transition: all 1.5s ease;
-}
-
-.gallery img:hover {
-    transform: scale(1.025);
-
 }
 
 
   @media only screen and (max-width: 1300px) {
-    .priceList {
-      grid-template-columns: 1fr 1fr;
-    }
+    
   }
   
   @media only screen and (max-width: 800px) {
-    .priceList {
-      grid-template-columns: 1fr;
-    }
+    
   }
