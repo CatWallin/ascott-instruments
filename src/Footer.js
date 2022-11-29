@@ -1,7 +1,7 @@
 import React from 'react'
-import { FaInstagram } from "react-icons/fa";
-import { MdOutlineEmail } from "react-icons/md";
-import { CgWebsite } from "react-icons/cg";
+import { IoEnterOutline } from "react-icons/io5";
+import { IoLogoInstagram } from "react-icons/io5";
+import { IoMailOutline } from "react-icons/io5";
 import "./styles/Footer.css";
 
 function Footer(){
@@ -10,17 +10,17 @@ function Footer(){
             <div className="socialMedia">
                 <a href="http://www.instagram.com/ascottinstruments/">
                     <button>
-                        <FaInstagram />
+                        <IoLogoInstagram />
                     </button>
                 </a>
                 <a href="ascottinstruments@gmail.com">
                     <button>
-                        <MdOutlineEmail />
+                        <IoMailOutline />
                     </button>
                 </a>
                 <a href="https://reverb.com/shop/aarons-gear-garage-908#">
                     <button>
-                        <CgWebsite />
+                        <IoEnterOutline />
                     </button>
                 </a>
             </div>
