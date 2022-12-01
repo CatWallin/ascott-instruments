@@ -12,11 +12,20 @@
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
+iframe {
+  width: 800px;
+  height: 600px;
+}
 
   @media only screen and (max-width: 1300px) {
-    
+    iframe {
+      width: 800px;
+      height: 600px;
+    }
   }
   
   @media only screen and (max-width: 800px) {
-    
+    iframe {
+      width: 60vh;
+    }
   }
