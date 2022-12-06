@@ -1,6 +1,6 @@
 import React from "react";
 import '.././App.css';
-import portrait from '../images/DSC_4861.jpg';
+import portrait from '../images/headshot.jpg';
 import '../styles/About.css';
 
 const About = () => {
@@ -11,6 +11,7 @@ const About = () => {
           <h1> About </h1>
           <text> 
             Aaron Scott is a luthier and musician living in Southern California. 
+            <br></br>
             Aaron plays mandolin, guitar, bass, bagpipes, Irish bouzouki, as well as drums.
             <br></br>
             <br></br>
@@ -20,7 +21,7 @@ const About = () => {
             <br></br>
             After many years of performing traditional Irish music in county Donegal and returning to the United States,
             Aaron worked for serveral major guitar manufacturers in a variety of capacities. 
-            In his free time Aaron has would worked on projects, such as restoring vintage guitars and creating the prototypes that would lay the foundation for his instruments.
+            In his free time Aaron has worked on projects, such as restoring vintage guitars and creating the prototypes that would lay the foundation for his instruments.
             <br></br>
             <br></br>
             In 2021 Aaron founded A. Scott Instruments to create one of a kind instruments with handcrafted quality at an affordable price.

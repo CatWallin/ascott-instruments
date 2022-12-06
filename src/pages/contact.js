@@ -1,5 +1,5 @@
 import React from "react";
-import Image from '../images/DSC_4840.jpg';
+import Image from '../images/contact.jpg';
 import '.././App.css';
 import "../styles/Contact.css";
 import { IoEnterOutline } from "react-icons/io5";
