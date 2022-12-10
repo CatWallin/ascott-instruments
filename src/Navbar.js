@@ -15,8 +15,9 @@ const Navbar= () =>{
 
     return (
     <div className="Navbar">
-        <div className='leftSide' id={openLinks ? "open" : "close"}>
+        <div className='leftSide'>
             <img alt="A. Scott Instruments" src={LogoRed} />
+            {/* 
             <div className="hiddenLinks">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>
@@ -24,6 +25,7 @@ const Navbar= () =>{
                 <Link to="/gallery">Gallery</Link>
                 <Link to="/prices">Prices</Link>
             </div>
+            */}
         </div>
         <div className='rightSide'>
             <Link to="/">Home</Link>
@@ -31,9 +33,19 @@ const Navbar= () =>{
             <Link to="/contact">Contact</Link>
             <Link to="/gallery">Gallery</Link>
             <Link to="/prices">Prices</Link>
-            <button onClick={toggleNavbar}>
+            <button onClick={toggleNavbar}><span>
                 <IoMdReorder />
+                </span>
             </button>
+        </div>
+        <div className='dropdown' id={openLinks ? "open" : "close"}>
+            <ul className="slide">
+                <li><a href="/">Home</a></li> 
+                <li><a href="/about">About</a></li> 
+                <li><a href="/contact">Contact</a></li> 
+                <li><a href="/gallery">Gallery</a></li> 
+                <li><a href="/prices">Prices</a></li> 
+            </ul>
         </div>
     </div>
     );

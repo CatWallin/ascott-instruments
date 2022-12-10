@@ -7,6 +7,10 @@
     flex-direction: row;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
+
+#close .Navbar {
+  height: 100px;
+}
   
   .Navbar .leftSide {
     flex: 50%;
@@ -47,66 +51,92 @@
   .Navbar .rightSide svg {
     font-size: 40px;
   }
-  
-  .Navbar #open {
-    padding-left: 0px;
-  }
-  .Navbar #open img {
+
+  .Navbar #close .slide {
     display: none;
   }
-  
-  .Navbar #close img {
-    display: inherit;
-  }
-  
-  .Navbar #open .hiddenLinks {
-    flex: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30px;
-  }
-  
-  .Navbar #close .hiddenLinks {
-    display: none;
-  }
-  
-  .Navbar #open a {
-    width: 70px;
-    margin: 5px;
-  }
-  @media only screen and (max-width: 900px) {
-    .Navbar .rightSide a {
-      width: 70px;
-    }
-    .Navbar .leftSide {
-      padding-left: 50px;
-    }
-  }
+
+  /* --------- SMALL WINDOW --------- */
   
   @media only screen and (max-width: 700px) {
     .Navbar .rightSide a {
       display: none;
     }
-  
-    .Navbar .rightSide {
-      justify-content: flex-end;
-      padding-right: 50px;
-    }
-  
+
     .Navbar .rightSide button {
       display: inherit;
     }
+
+    .slide {
+      width:100%;
+      background-color: #e5d9d19f;
+      padding-top: 60px;
+      width: 100%;
+      text-align: center;
+      transition: height .4s ease;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    .slide li {
+      padding : 20px;
+    }
+
   }
+
+  /* --------- BIG SCREEN --------- */
   
   @media only screen and (min-width: 700px) {
     .Navbar .rightSide button {
       display: none;
     }
   
-    .hiddenLinks {
+    .dropdown {
       display: none;
     }
+
+    .Navbar {
+      width: 100%;
+      height: 100px;
+      background-color: #e5d9d1;
+      display: flex;
+      padding-bottom: 5px;
+      flex-direction: row;
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    }
   }
+
+  /* --------- MOBILE --------- */
   
+  @media only screen and (max-width: 600px) {
+    .Navbar .rightSide a {
+      display: none;
+    }
+
+    .Navbar .rightSide button {
+      display: inherit;
+    }
+
+    .slide {
+      width:100%;
+      background-color: #e5d9d199;
+      padding-top: 100px;
+      text-align: center;
+      transition: height .4s ease;
+    }
+
+    #open .Navbar {
+      height: flex;
+    }
+
+    #open .slide {
+      height: flex;
+      display: grid;
+      align-items: center;
+    } 
+
+    .slide li {padding : 20px;}
+
+  }
