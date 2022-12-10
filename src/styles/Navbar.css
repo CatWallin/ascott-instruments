@@ -68,12 +68,14 @@
     }
 
     .slide {
+      position: absolute;
       width:100%;
-      background-color: #e5d9d19f;
-      padding-top: 60px;
-      width: 100%;
+      background-color: #e5d9d1de;
+      margin-top: 105px;
       text-align: center;
       transition: height .4s ease;
+      right: 0;
+      z-index: 99;
     }
 
     ul {
@@ -121,8 +123,8 @@
 
     .slide {
       width:100%;
-      background-color: #e5d9d199;
-      padding-top: 100px;
+      background-color: #e5d9d1c7;
+      padding-top: 15px;
       text-align: center;
       transition: height .4s ease;
     }
