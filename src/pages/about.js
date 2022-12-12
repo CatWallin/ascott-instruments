@@ -1,6 +1,7 @@
 import React from "react";
 import '.././App.css';
 import portrait from '../images/headshot.jpg';
+import portrait2 from '../images/bagpipes-3.jpg';
 import '../styles/About.css';
 
 const About = () => {
@@ -11,6 +12,7 @@ const About = () => {
           <h1> About </h1>
           <text> 
             Aaron Scott is a luthier and musician living in Southern California. 
+            <br></br>
             <br></br>
             Aaron plays mandolin, guitar, bass, bagpipes, Irish bouzouki, as well as drums.
             <br></br>
@@ -30,6 +32,9 @@ const About = () => {
       </div>
       <div className="aboutRight">
         <img src={portrait} alt="aaron's portrait" height={700} width={500}></img>
+      </div>
+      <div className="portrait2">
+        <img src={portrait2} alt="aaron's portrait2" height={700} width={500}></img>
       </div>
     </div>
   );

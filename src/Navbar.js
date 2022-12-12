@@ -17,15 +17,6 @@ const Navbar= () =>{
     <div className="Navbar">
         <div className='leftSide'>
             <img alt="A. Scott Instruments" src={LogoRed} />
-            {/* 
-            <div className="hiddenLinks">
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/gallery">Gallery</Link>
-                <Link to="/prices">Prices</Link>
-            </div>
-            */}
         </div>
         <div className='rightSide'>
             <Link to="/">Home</Link>

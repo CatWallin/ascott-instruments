@@ -1,5 +1,6 @@
 .about {
     margin: 50px;
+    margin-top: 20px;
     justify-content: center;
     width: 90%;
     height: auto;
@@ -13,6 +14,7 @@
     background-size: cover;
     padding-left: 20px;
     justify-content: center;
+    padding-right: 20px;
 }
 
 .about .aboutRight img {
@@ -22,10 +24,12 @@
 }
   
 .about .aboutRight {
+    padding-top: 20px;
     height: 100%vh;
     flex: 50%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
   
 .about .aboutLeft h1 {
@@ -36,12 +40,151 @@
 
 .about .aboutLeft text {
     font-weight: 4;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
 }
 
-@media only screen and (max-width: 900px) {
-    .about .aboutRight {
-      display: none;
+.about .portrait2 {
+    display: none;
+}
+
+/* --------- MEDIUM WINDOW --------- */
+
+@media only screen and (max-width: 1000px) {
+
+    .about {
+        margin: 20px;
     }
+    
+    .about .aboutLeft {
+        height: 100%;
+        flex: 50%;
+        background-size: cover;
+        padding-left: 20px;
+        justify-content: center;
+        padding-right: 20px;
+    }
+    
+    .about .aboutRight img {
+        height: 60vh;
+        width: 42vh;
+        display: flex;
+    }
+      
+    .about .aboutRight {
+        height: 100%vh;
+        flex: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+      
+    .about .aboutLeft h1 {
+        color: #6b1c3b;
+        font-weight: 10;
+        font-size: 50px;
+    }
+    
+    .about .aboutLeft text {
+        font-weight: 4;
+        font-size: 18px;
+        text-decoration: none;
+    }
+    
+    .about .portrait2 {
+        display: none;
+    }
+
+  }
+
+
+/* --------- SMALL WINDOW --------- */
+
+
+@media only screen and (max-width: 700px) {
+
+    .about {
+        height: 100%;
+        padding-top: 0px;
+        margin: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .about .aboutLeft {
+        height: 100%;
+        flex: 100%;
+        background-size: cover;
+        padding-left: 20px;
+        justify-content: center;
+    }
+
+    .about .aboutLeft h1 {
+        color: #6b1c3b;
+        font-weight: 10;
+        font-size: 50px;
+    }
+    
+    .about .aboutLeft text {
+        font-weight: 4;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    .about .aboutRight {
+        height: 100%;
+        flex: 100%;
+        display: flex;
+        justify-content: center;
+        display: none;
+    }
+
+    .about .aboutRight img {
+        display: none
+    }
+    
+    .about .portrait2 {
+        display: none;
+    }
+
+  }
+
+  /* --------- MOBILE --------- */
+  
+  @media only screen and (max-width: 400px) {
+    
+    .about {
+        height: 100%;
+        padding-top: 0px;
+        margin: 10px;
+        padding-bottom: 20px;
+    }
+
+    .about .aboutRight {
+        display: none;
+    }
+
+    .about .portrait2 {
+        display: none;
+    }
+    
+    .about .aboutLeft {
+        height: 100%;
+        flex: 100%;
+        background-size: cover;
+        padding-left: 20px;
+        justify-content: center;
+    }
+
+    .about .aboutLeft h1 {
+        color: #6b1c3b;
+        font-weight: 10;
+        font-size: 50px;
+    }
+    
+    .about .aboutLeft text {
+        font-weight: 4;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
   }
