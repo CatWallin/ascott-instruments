@@ -55,13 +55,15 @@
     cursor: pointer;
     transition: 0.3s ease-in;
   }
+
+    /* --------- SMALL WINDOW --------- */
   
-  @media only screen and (max-width: 650px) {
+  @media only screen and (max-width: 700px) {
     .home {
       justify-content: center;
       align-items: center;
+      height: 74vh;
     }
-
   
     .headerContainer {
       margin-left: 0px;
@@ -72,7 +74,6 @@
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      background-color: #121619;
       color: white;
     }
   
@@ -89,6 +90,7 @@
       font-weight: 400;
       padding-left: 0px;
       color: #e5d9d1;
+      display: none;
     }
   
     .headerContainer button {
@@ -101,4 +103,55 @@
       background-color: rgb(225, 225, 225);
       color: #121619;
     }
+  }
+
+
+  /* --------- MOBILE --------- */
+  
+  @media only screen and (max-width: 400px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+      height: 70vh;
+    }
+  
+    .headerContainer {
+      margin-left: 0px;
+      border-radius: 0px;
+      padding: 10px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+    }
+  
+    .headerContainer h1 {
+      font-size: 40px;
+      font-weight: 600;
+      padding-left: 0px;
+      height: 30px;
+      color: #e5d9d1;
+    }
+  
+    .headerContainer p {
+      font-size: 30px;
+      font-weight: 400;
+      padding-left: 0px;
+      color: #e5d9d1;
+      display: none;
+    }
+  
+    .headerContainer button {
+      background-color: white;
+      color: #121619;
+      margin-bottom: 30px;
+    }
+  
+    .headerContainer button:hover {
+      background-color: rgb(225, 225, 225);
+      color: #121619;
+    }
+
   }
