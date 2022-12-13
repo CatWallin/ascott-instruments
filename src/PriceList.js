@@ -2,11 +2,11 @@
 export const PriceList = [
     {
         name: "Mandolin",
-        price: 800.00,
+        price: 1000.00,
         description: ["Scale Length: 14 inches", 
-                    "Back/Sides: Hunduran Mahogany",
+                    "Back/Sides: Flamed Maple",
                     "Top: Sitka Spruce",
-                    "Binding: Rosewood",
+                    "Binding: Maple and Rosewood",
                     "Rossette: Rosewood",
                     "Neck: Hunduran Mahogany",
                     "Fretboard: Ebony",
@@ -18,7 +18,7 @@ export const PriceList = [
     },
     {
         name: "Irish Bouzouki",
-        price: 1000.00,
+        price: 1300.00,
         description: ["Scale Length: 24 inches", 
                     "Back/Sides: Hunduran Mahogany",
                     "Top: Sitka Spruce",
@@ -34,7 +34,7 @@ export const PriceList = [
     },
     {
         name: "Cittern",
-        price: 1200.00,
+        price: 1500.00,
         description: ["Scale Length: 22 inches", 
                     "Back/Sides: Hunduran Mahogany",
                     "Top: Sitka Spruce",
