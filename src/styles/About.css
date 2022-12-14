@@ -54,6 +54,8 @@
 
     .about {
         margin: 20px;
+        align-items: center;
+        justify-content: center;
     }
     
     .about .aboutLeft {
@@ -72,7 +74,7 @@
     }
       
     .about .aboutRight {
-        height: 100%vh;
+        height: 100%;
         flex: 50%;
         display: flex;
         justify-content: center;

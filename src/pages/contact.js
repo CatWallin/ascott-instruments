@@ -55,20 +55,22 @@ const Contact = () => {
                 </a>
               </div>
           </div>
-          <head>
-            <title>Contact Me</title>
-          </head>
-          <body>
-            <form action="mailto:catherine.wallin@gmail.com" method="post" enctype="text/plain" id="contactForm" className="form">
-              <label>Name</label>
-              <input type ="text" name="name" placeholder="John Smith"></input>
-              <label>Email</label>
-              <input type ="email" name="email" placeholder="email@gmail.com"></input>
-              <label>Message</label>
-              <textarea type="message" placeholder="enter a message"></textarea>
-              <button type="submit" value="submit">Send</button>
-            </form>
-          </body>
+          <div className="contactMe">
+            <head>
+              <title>Contact Me</title>
+            </head>
+            <body>
+              <form action="mailto:catherine.wallin@gmail.com" method="post" enctype="text/plain" id="contactForm" className="form">
+                <label>Name</label>
+                <input type ="text" name="name" placeholder="John Smith"></input>
+                <label>Email</label>
+                <input type ="email" name="email" placeholder="email@gmail.com"></input>
+                <label>Message</label>
+                <textarea type="message" placeholder="enter a message"></textarea>
+                <button type="submit" value="submit">Send</button>
+              </form>
+            </body>
+          </div>
         </html>
       </div>
     </div>

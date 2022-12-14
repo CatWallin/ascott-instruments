@@ -90,11 +90,13 @@
     border-bottom: 1px solid #121619;
     color: black;
   }
+
   input::placeholder,
   textarea::placeholder {
     color: #998887;
     font-family: Arial, Helvetica, sans-serif;
   }
+
   form input:focus,
   textarea:focus {
     outline: none;
@@ -128,6 +130,44 @@
 
 @media only screen and (max-width: 1000px) {
 
+  .contact {
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .contactLeft {
+    height: 100%;
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  .contact .contactLeft img{
+    height: 57vh;
+    width: 40vh;
+    display: flex;
+  }
+
+  .contact .contactRight {
+    height: 100%;
+    flex: 50%;
+    background-size: cover;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.contactRight .socialMedia {
+    justify-content: center;
+    flex: 100%; 
+}
+
+.contactRight .contactMe form {
+    justify-content: center;
+    width: 38vh;
+}
 
 }
 
@@ -137,6 +177,41 @@
 
 @media only screen and (max-width: 700px) {
 
+  .contact {
+    margin: 20px;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;    
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  .contact .contactLeft {
+    display: none;
+  }
+
+  .contact .contactRight {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding-left: 00px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactRight .socialMedia {
+    justify-content: center;
+    flex: 100%; 
+}
+
+.contactRight .contactMe form {
+    justify-content: center;
+    width: 40vh;
+}
 
 }
 
@@ -144,5 +219,40 @@
 
 @media only screen and (max-width: 400px) {
   
+  .contact {
+    margin: 20px;
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: flex;    
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  .contact .contactLeft {
+    display: none;
+  }
+
+  .contact .contactRight {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    padding-left: 00px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactRight .socialMedia {
+    justify-content: center;
+    flex: 100%; 
+}
+
+.contactRight .contactMe form {
+    justify-content: center;
+    width: 37vh;
+}
 
 }
