@@ -1,5 +1,6 @@
 .pricePage {
     width: 100%;
+    margin-top: 20px;
     height: auto;
     display: flex;
     justify-content: center;
@@ -8,12 +9,15 @@
     padding-bottom: 55px;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
-  .pricePage .priceTitle h1 {
-    font-size: 60px;
+  .pricePage .priceTitle {
+    color: #6b1c3b;
+    font-weight: 10;
+    font-size: 50px;
   }
 
   .priceInfo {
     text-align: center;
+    font-size: 18px;
   }
   
   .priceList {
@@ -22,15 +26,16 @@
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
+    justify-content: center;
+    align-items: center;
   }
   
-  /* PRICE ITEM STYLING */
+  /* -------- PRICE ITEM STYLING -------- */
   
   .PriceItem {
     border-radius: 15px;
     width: 300px;
-    height: 350px;
+    height: flex;
     margin: 20px;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
   }
@@ -67,16 +72,173 @@
     line-height: 8px;
   }
   
-  
-  
-  @media only screen and (max-width: 1300px) {
-    .priceList {
-      grid-template-columns: 1fr 1fr;
-    }
+
+
+/* --------- MEDIUM WINDOW --------- */
+
+
+@media only screen and (max-width: 1000px) {
+
+  .pricePage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+
+  .pricePage .priceTitle h1 {
+    font-size: 80px;
+  }
+
+  .priceInfo {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
   }
   
-  @media only screen and (max-width: 800px) {
-    .priceList {
-      grid-template-columns: 1fr;
-    }
+  .priceList {
+    width: 70vw;
+    padding-top: 16px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
   }
+
+
+  .PriceItem h1,
+  .PriceItem h2 {
+    margin-left: 20px;
+    line-height: 16px;
+  }
+
+  .PriceItem h2 {
+    font-size: 20px;
+    font-weight: 6;
+  }
+
+  .PriceItem p {
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 8px;
+  }
+}
+
+/* --------- SMALL WINDOW --------- */
+
+
+@media only screen and (max-width: 700px) {
+  
+  .pricePage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .pricePage .priceTitle h1 {
+    font-size: 80px;
+  }
+
+  .priceInfo {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .priceList {
+    width: 70vw;
+    padding-top: 16px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .priceList {
+    grid-template-columns: 1fr;
+  }
+
+  .PriceItem h1,
+  .PriceItem h2 {
+    margin-left: 20px;
+    line-height: 16px;
+  }
+
+  .PriceItem h2 {
+    font-size: 20px;
+    font-weight: 6;
+  }
+
+  .PriceItem p {
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 8px;
+  }
+}
+
+/* --------- MOBILE --------- */
+
+@media only screen and (max-width: 400px) {
+
+  .pricePage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .pricePage .priceTitle h1 {
+    font-size: 80px;
+  }
+
+  .priceInfo {
+    text-align: center;
+    font-size: 18px;
+    margin: 10px;
+  }
+  
+  .priceList {
+    width: 70vw;
+    padding-top: 16px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .priceList {
+    grid-template-columns: 1fr;
+  }
+
+  .PriceItem h1,
+  .PriceItem h2 {
+    margin-left: 20px;
+    line-height: 16px;
+  }
+
+  .PriceItem h2 {
+    font-size: 20px;
+    font-weight: 6;
+  }
+
+  .PriceItem p {
+    margin-left: 20px;
+    font-size: 16px;
+    line-height: 8px;
+  }
+
+}
