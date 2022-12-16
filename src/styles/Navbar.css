@@ -159,6 +159,7 @@
       border-color: #6b1c3b;
       border-top-width: 1px;
       border-bottom: none;
+      list-style-type: none;
     } 
 
     .slide li {

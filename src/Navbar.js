@@ -31,11 +31,11 @@ const Navbar= () =>{
         </div>
         <div className='dropdown' id={openLinks ? "open" : "close"}>
             <ul className="slide">
-                <li><a class="external-link" href="/">Home</a></li> 
-                <li><a class="external-link" href="/about">About</a></li> 
-                <li><a class="external-link" href="/contact">Contact</a></li> 
-                <li><a class="external-link" href="/gallery">Gallery</a></li> 
-                <li><a class="external-link" href="/prices">Prices</a></li> 
+                <li><Link to="/" onClick={openLinks ? "open" : "close"}>Home</Link></li> 
+                <li><Link to="/about" onClick={openLinks ? "open" : "close"}>About</Link></li> 
+                <li><Link to="/contact" onClick={openLinks ? "open" : "close"}>Contact</Link></li> 
+                <li><Link to="/gallery" onClick={openLinks ? "open" : "close"}>Gallery</Link></li> 
+                <li><Link to="/prices" onClick={openLinks ? "open" : "close"}>Prices</Link></li> 
             </ul>
         </div>
     </div>
