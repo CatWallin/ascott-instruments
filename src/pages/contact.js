@@ -60,7 +60,7 @@ const Contact = () => {
               <title>Contact Me</title>
             </head>
             <body>
-              <form action="mailto:catherine.wallin@gmail.com" method="post" enctype="text/plain" id="contactForm" className="form">
+              <form action="mailto:ascottinstruments@gmail.com" method="post" enctype="text/plain" id="contactForm" className="form">
                 <label>Name</label>
                 <input type ="text" name="name" placeholder="John Smith"></input>
                 <label>Email</label>
